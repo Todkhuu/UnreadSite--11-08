@@ -1,0 +1,223 @@
+.this-week {
+  width: 95%;
+  height: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.this-week a {
+  text-decoration: none;
+  color: black;
+}
+.left-article {
+  max-width: 729px;
+  translate: 0px 10px;
+  transition: translate 0.3s linear;
+}
+.left-article:hover {
+  translate: 0px;
+}
+.left-article:hover .gerelee img {
+  border: solid 1px #fff;
+}
+.gerelee {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.gerelee img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 2px;
+  border: solid 1px transparent;
+}
+.gerelee-name h5 {
+  font-weight: 500px;
+  font-size: 12px;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+}
+.gerelee-name p {
+  color: #888888;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.grow {
+  max-width: 724px;
+  height: 132px;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 0px 24px 24px 24px;
+  display: flex;
+  padding: 28px 65px 20px 51px;
+  line-height: 25px;
+  cursor: pointer;
+  box-shadow: 0px 0px 41px 13px rgba(0, 0, 0, 0.1);
+}
+.grow:hover {
+  box-shadow: 0px 0px 43px 29px rgba(0, 0, 0, 0.1);
+}
+.grow p {
+  color: #0078f6;
+  font-family: "SF Display", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.grow h3 {
+  font-family: "SF Display", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  transition-duration: 1s;
+  padding-right: 100px;
+}
+.grow h3:hover {
+  color: #0078f6;
+}
+.grow img {
+  width: 88px;
+  height: 88px;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.right-article {
+  max-width: 724px;
+  translate: 0px 10px;
+  transition: translate 0.3s linear;
+}
+.right-article:hover {
+  translate: 0px;
+}
+.right-article:hover .tushigee img {
+  border: solid 1px #fff;
+}
+.tushigee {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: end;
+  cursor: pointer;
+}
+.tushigee img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 2px;
+  border: solid 1px transparent;
+}
+.tushigt-name {
+  text-align: end;
+}
+.tushigt-name h5 {
+  font-weight: 500px;
+  font-size: 12px;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+}
+.tushigt-name p {
+  color: #888888;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.paper {
+  max-width: 724px;
+  min-height: 132px;
+  background-color: #fff;
+  border-radius: 24px 0px 24px 24px;
+  display: flex;
+  padding: 28px 65px 20px 51px;
+  line-height: 25px;
+  cursor: pointer;
+  box-shadow: 0px 0px 41px 13px rgba(0, 0, 0, 0.1);
+}
+.paper:hover {
+  box-shadow: 0px 0px 43px 29px rgba(0, 0, 0, 0.1);
+}
+.paper p {
+  color: #0078f6;
+  font-family: "SF Display", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.paper h3 {
+  font-family: "SF Display", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  transition-duration: 1s;
+  padding-right: 100px;
+}
+.paper h3:hover {
+  color: #0078f6;
+}
+.paper img {
+  width: 88px;
+  height: 88px;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+@media screen and (min-width: 763px) {
+  .this-week {
+    margin-top: 40px;
+  }
+  .right-article {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 981px) {
+  .this-week {
+    max-width: 930px;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .grow {
+    max-width: 739px;
+    height: 183px;
+  }
+  .grow img {
+    width: 135px;
+    height: 135px;
+  }
+  .paper {
+    max-width: 739px;
+    height: 183px;
+  }
+  .paper img {
+    width: 135px;
+    height: 135px;
+  }
+  .right-article {
+    align-self: flex-end;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .this-week {
+    max-width: 1116px;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .grow {
+    padding: 15px;
+  }
+  .grow h3 {
+    font-size: 15px;
+  }
+  .paper {
+    padding: 15px;
+  }
+  .paper h3 {
+    font-size: 15px;
+  }
+}

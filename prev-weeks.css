@@ -1,0 +1,642 @@
+.prev-weeks-articles {
+  width: 100%;
+}
+.top-articles {
+  width: 95%;
+  margin: auto;
+}
+.gpt-img {
+  width: 439px;
+  height: 289px;
+  width: 100%;
+  border-radius: 12px;
+  background-image: url(./SearchGPT.png);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.gpt-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.left-top-bottom2 {
+  margin-top: 19px;
+}
+.work-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./work.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.work-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.iva-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./iva.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.iva-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.bbc-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./bbc.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.right-top {
+  width: 100%;
+}
+.bbc-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.fear-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./fear.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.fear-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.right-top-bottom2 {
+  margin-top: 19px;
+}
+.book-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./book.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.book-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.porsche-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./porsche.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.porsche-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.top-articles {
+  margin-top: 19px;
+}
+.boy-img {
+  width: 439px;
+  height: 289px;
+  width: 100%;
+  border-radius: 12px;
+  background-image: url(./boy-grandpa.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.boy-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.naruto-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./naruto.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.naruto-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.ninjin-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./ninjin.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.ninjin-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.mbank-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./mbank.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.mbank-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.tus-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./tus-solution.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.tus-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.remember-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./remember.png);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.remember-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.news-img {
+  max-width: 439px;
+  height: 289px;
+  border-radius: 12px;
+  background-image: url(./news-paper.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: translate 0.3s linear;
+  translate: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.news-img:hover {
+  translate: 0px;
+  box-shadow: 0px 0px 26px 19px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.long-text {
+  width: 100%;
+  height: 107px;
+  background-color: rgba(0, 0, 0, 0.143);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 16px 23px;
+}
+.long-text h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff8b;
+  font-family: sans-serif;
+}
+.long-text h5 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.short-text {
+  width: 100%;
+  height: 92px;
+  background-color: rgba(0, 0, 0, 0.403);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 23px;
+}
+.short-text h6 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff8b;
+  font-family: sans-serif;
+}
+.short-text h5 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 480px) {
+  .gpt-img {
+    width: 440px;
+    height: 289px;
+    width: 100%;
+  }
+  .left-top-bottom2 {
+    display: flex;
+    gap: 19px;
+  }
+  .work-img {
+    width: 211px;
+    height: 186px;
+    width: 100%;
+  }
+  .iva-img {
+    width: 211px;
+    height: 186px;
+    margin: 0;
+    width: 100%;
+  }
+  .right-top-top2 {
+    display: flex;
+    gap: 19px;
+    margin-top: 19px;
+  }
+  .bbc-img {
+    width: 211px;
+    height: 186px;
+    margin: 0;
+    width: 100%;
+  }
+  .fear-img {
+    width: 211px;
+    height: 186px;
+    margin: 0;
+    width: 100%;
+  }
+  .right-top-bottom2 {
+    display: flex;
+    gap: 19px;
+  }
+  .book-img {
+    width: 211px;
+    height: 186px;
+    width: 100%;
+  }
+  .porsche-img {
+    width: 211px;
+    height: 186px;
+    margin: 0;
+    width: 100%;
+  }
+  .boy-img {
+    width: 440px;
+    height: 289px;
+    width: 100%;
+  }
+  .naruto-img {
+    width: 211px;
+    height: 186px;
+    width: 100%;
+  }
+  .ninjin-img {
+    width: 211px;
+    height: 186px;
+    margin: 0;
+    width: 100%;
+  }
+  .mbank-img {
+    width: 211px;
+    height: 186px;
+    width: 100%;
+  }
+  .tus-img {
+    width: 211px;
+    height: 186px;
+    width: 100%;
+  }
+  .remember-img {
+    width: 211px;
+    height: 186px;
+    width: 100%;
+  }
+  .news-img {
+    width: 211px;
+    height: 186px;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .prev-weeks-articles {
+    width: 100%;
+  }
+  .top-articles {
+    display: flex;
+  }
+  .gpt-img {
+    width: 349px;
+    height: 230px;
+    width: 100%;
+  }
+  .work-img {
+    width: 165px;
+    height: 146px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .iva-img {
+    width: 165px;
+    height: 146px;
+    width: 100%;
+  }
+  .right-top {
+    margin-left: 19px;
+  }
+  .right-top-top2 {
+    margin: 0;
+  }
+  .bbc-img {
+    width: 165px;
+    height: 169px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .fear-img {
+    width: 165px;
+    height: 169px;
+    width: 100%;
+  }
+  .book-img {
+    width: 165px;
+    height: 208px;
+    width: 100%;
+  }
+  .porsche-img {
+    width: 165px;
+    height: 208px;
+    width: 100%;
+  }
+  .boy-img {
+    width: 349px;
+    height: 230px;
+    width: 100%;
+  }
+  .naruto-img {
+    width: 165px;
+    height: 146px;
+    width: 100%;
+  }
+  .ninjin-img {
+    width: 165px;
+    height: 146px;
+    width: 100%;
+  }
+  .mbank-img {
+    width: 165px;
+    height: 169px;
+    margin: 0;
+    width: 100%;
+  }
+  .tus-img {
+    width: 165px;
+    height: 169px;
+    margin: 0;
+    width: 100%;
+  }
+  .remember-img {
+    width: 165px;
+    height: 208px;
+    width: 100%;
+  }
+  .news-img {
+    width: 165px;
+    height: 208px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 989px) {
+  .prev-weeks-articles {
+    max-width: 989px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .gpt-img {
+    width: 455px;
+    height: 300px;
+  }
+  .work-img {
+    width: 218px;
+    height: 193px;
+  }
+  .iva-img {
+    width: 218px;
+    height: 193px;
+  }
+  .bbc-img {
+    width: 218px;
+    height: 224px;
+    overflow: hidden;
+  }
+  .fear-img {
+    width: 218px;
+    height: 224px;
+  }
+  .book-img {
+    width: 218px;
+    height: 267px;
+  }
+  .porsche-img {
+    width: 218px;
+    height: 267px;
+  }
+  .boy-img {
+    width: 455px;
+    height: 300px;
+  }
+  .naruto-img {
+    width: 218px;
+    height: 193px;
+  }
+  .ninjin-img {
+    width: 218px;
+    height: 193px;
+  }
+  .mbank-img {
+    width: 218px;
+    height: 224px;
+  }
+  .tus-img {
+    width: 218px;
+    height: 224px;
+  }
+  .remember-img {
+    width: 218px;
+    height: 267px;
+  }
+  .news-img {
+    width: 218px;
+    height: 267px;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .prev-weeks-articles {
+    max-width: 1116px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .top-articles {
+    margin: 0;
+  }
+  .gpt-img {
+    width: 548px;
+    height: 361px;
+  }
+  .work-img {
+    width: 264px;
+    height: 234px;
+  }
+  .iva-img {
+    width: 264px;
+    height: 234px;
+  }
+  .bbc-img {
+    width: 264px;
+    height: 271px;
+    overflow: hidden;
+  }
+  .fear-img {
+    width: 264px;
+    height: 271px;
+  }
+  .book-img {
+    width: 264px;
+    height: 323px;
+  }
+  .porsche-img {
+    width: 264px;
+    height: 323px;
+  }
+  .boy-img {
+    width: 548px;
+    height: 361px;
+    margin-top: 38px;
+  }
+  .naruto-img {
+    width: 264px;
+    height: 234px;
+  }
+  .ninjin-img {
+    width: 264px;
+    height: 234px;
+  }
+  .mbank-img {
+    width: 264px;
+    height: 271px;
+    margin-top: 38px;
+  }
+  .tus-img {
+    width: 264px;
+    height: 271px;
+    margin-top: 38px;
+  }
+  .remember-img {
+    width: 264px;
+    height: 323px;
+  }
+  .news-img {
+    width: 264px;
+    height: 323px;
+  }
+}

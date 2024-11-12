@@ -1,0 +1,15 @@
+.footer-top {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  margin-bottom: -40px;
+  background-color: #fafafa;
+  border-radius: 22px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1220px) {
+  .footer-top {
+    height: 60px;
+    margin-bottom: -30px;
+  }
+}
