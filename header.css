@@ -28,11 +28,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-.top-bar {
-  width: 19px;
-  height: 3px;
-  background-color: #fff;
-}
+
 .unread-search {
   display: flex;
   gap: 29px;
