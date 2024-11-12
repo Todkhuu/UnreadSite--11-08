@@ -36,13 +36,16 @@
   border-bottom: solid 1px gray;
   padding: 10px 0px;
 }
-.name:active {
-  border-bottom: solid 1px black;
+.name:focus {
+  outline: none;
 }
 .comment {
   width: 350px;
   padding-top: 12px;
   border: none;
+}
+.comment:focus {
+  outline: none;
 }
 .comment2 {
   width: 380px;
@@ -56,7 +59,7 @@
   color: #888888;
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
-.comment2:active {
+.comment2:hover {
   border: solid 1px rgba(128, 128, 128, 0.346);
 }
 .comment2 p {
@@ -69,6 +72,7 @@
   font-size: 12px;
   line-height: 15px;
   text-align: center;
+  font-family: sans-serif;
 }
 .bottom a {
   text-decoration: none;
