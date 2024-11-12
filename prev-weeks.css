@@ -1,6 +1,9 @@
 .prev-weeks-articles {
   width: 100%;
 }
+.prev-weeks-articles a {
+  text-decoration: none;
+}
 .top-articles {
   width: 95%;
   margin: auto;
