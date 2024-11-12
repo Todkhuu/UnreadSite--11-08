@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 85px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  position: sticky;
+  top: 0;
+}
+.header-inside {
+  max-width: 1116px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+.unread-search {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.unread-img {
+  width: 135px;
+  height: 18px;
+  background-image: url(./unread-logo.png);
+  background-position: center;
+  background-size: cover;
+}
+.search-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search-logo svg {
+  width: 18px;
+  height: 18px;
+  fill: gray;
+}
+.search-logo h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  letter-spacing: 0.2px;
+}
+.next-today {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.next {
+  display: flex;
+}
+.next h5 {
+  color: #a6a6a6;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.015rem;
+  font-weight: 400;
+}
+.next p {
+  color: #0078f6;
+  font-weight: 400;
+  margin-left: 5px;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.today {
+  width: 142px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 4px 4px 50px -4px rgba(209, 209, 209, 0.6);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #0078f6;
+  margin: 18px 0px 16px 10px;
+  animation: dot infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes dot {
+  from {
+    background-color: #0078f6;
+  }
+  to {
+    background-color: transparent;
+  }
+}

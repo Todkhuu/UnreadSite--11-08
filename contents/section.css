@@ -1,0 +1,100 @@
+.section {
+  max-width: 1116px;
+  margin: auto;
+  margin-top: 109px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.back {
+  color: #0078f6;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2.2rem;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.015rem;
+  font-size: 12px;
+}
+.top h6 {
+  display: flex;
+  gap: 10px;
+  text-transform: uppercase;
+  line-height: 2.2rem;
+  color: #6d7378;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.015rem;
+  font-size: 12px;
+}
+.section h1 {
+  max-width: 1000px;
+  letter-spacing: 0.03rem;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: none;
+  font-family: "SF Display", sans-serif;
+  margin-bottom: 66px;
+}
+.time-managment {
+  width: 1116px;
+  height: 669px;
+  width: 100%;
+}
+.author {
+  max-width: 1116px;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 79px;
+}
+.author-piece {
+  display: flex;
+  gap: 100px;
+}
+.majigaa {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.majigaa img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding: 1px;
+  border: solid 1px transparent;
+}
+.majigaa img:hover {
+  border: solid 1px #fafafa;
+}
+.majigaa h6 {
+  color: #888888;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.015rem;
+  font-size: 12px;
+}
+.majigaa p {
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.015rem;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+.view-logo {
+  display: flex;
+  gap: 30px;
+}
+.view-logo svg {
+  width: 25px;
+  height: 15px;
+}
+.influence-comment p {
+  color: #888888 !important;
+  line-height: 2.3rem;
+  letter-spacing: 0.015rem;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}

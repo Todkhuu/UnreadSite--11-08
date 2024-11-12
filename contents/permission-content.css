@@ -1,0 +1,40 @@
+.permission-content {
+  max-width: 535px;
+  margin: auto;
+  margin-top: 70px;
+}
+.permission-content h2 {
+  letter-spacing: 0.5px;
+  color: #0078f6 !important;
+  font-family: "SF Display", sans-serif;
+  font-weight: 550;
+}
+.about-book {
+  display: flex;
+  gap: 10px;
+  border-bottom: solid 1px gray;
+  margin-top: 20px;
+}
+.about-book p {
+  font-family: "SF Display", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: "SF Display", sans-serif;
+  font-size: 13px;
+}
+.about-book h5 {
+  color: #0078f6 !important;
+  font-family: "SF Display", sans-serif;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.015rem;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.about-book h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "SF Display", sans-serif;
+}
