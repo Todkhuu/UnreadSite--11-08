@@ -35,6 +35,7 @@
   border: none;
   border-bottom: solid 1px gray;
   padding: 10px 0px;
+  font-family: sans-serif;
 }
 .name:focus {
   outline: none;
@@ -43,6 +44,7 @@
   width: 350px;
   padding-top: 12px;
   border: none;
+  font-family: sans-serif;
 }
 .comment:focus {
   outline: none;
@@ -58,6 +60,7 @@
   font-size: 16px;
   color: #888888;
   border: 1px solid rgba(0, 0, 0, 0.06);
+  cursor: pointer;
 }
 .comment2:hover {
   border: solid 1px rgba(128, 128, 128, 0.346);

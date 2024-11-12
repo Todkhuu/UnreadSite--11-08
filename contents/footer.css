@@ -1,0 +1,279 @@
+.footer-up {
+  width: 100%;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 0px 0px 22px 22px;
+  margin-bottom: -40px;
+  position: absolute;
+}
+
+.footer {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.tops {
+  width: 1116px;
+  margin: auto;
+  display: flex;
+  gap: 180px;
+  margin-top: 160px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 0px 0px 0px;
+}
+.unread-logo-img {
+  width: 134px;
+  height: 18px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.btn1 {
+  max-width: 323px;
+  min-height: 90px;
+  width: 100%;
+  border-radius: 24px;
+  background-image: url(./btn-black.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: translate 0.3s linear;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.btn1:hover {
+  translate: 5px;
+}
+.btn1:hover .circle-btn-border {
+  background-color: #3399ff8b;
+}
+.btn1:hover .circle-btn {
+  background-color: #3399ff;
+}
+.btn1 p {
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.3;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+.btn1 h6 {
+  font-weight: 400;
+  color: #fff;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+}
+.circle-btn-border {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-google {
+  margin-top: 45px;
+  display: flex;
+  gap: 10px;
+}
+.app-google img {
+  width: 144px;
+  height: 45px;
+}
+.button-contact2 h5 {
+  font-weight: 500;
+  color: #fff;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.015rem;
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+.button-contact2 p {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.5;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  margin-top: 10px;
+  margin-top: 46px;
+}
+.menus {
+  width: 600px;
+  height: 403px;
+  width: 100%;
+  padding-top: 100px;
+}
+.menu-all {
+  display: flex;
+  gap: 60px;
+  margin-top: 60px;
+}
+.menu-1 h6 {
+  color: #0078f6;
+  letter-spacing: 0.03rem;
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+.menu-1 h4 {
+  color: #878787;
+  letter-spacing: 0.03rem;
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 25px;
+  transition: translate 0.3s linear;
+  translate: -5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.menu-1 h4:hover {
+  translate: 0px;
+  color: #fff;
+}
+.menu-2 h5 {
+  color: transparent;
+  letter-spacing: 0.03rem;
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+.menu-2 h4 {
+  color: #878787;
+  letter-spacing: 0.03rem;
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  transition: translate 0.3s linear;
+  cursor: pointer;
+}
+.menu-2 h4:hover {
+  translate: 5px;
+  color: #fff;
+}
+.menu-3 h6 {
+  color: #0078f6;
+  letter-spacing: 0.03rem;
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+.menu-3 h4 {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+}
+.menu-3 p {
+  color: #fff;
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.03rem;
+}
+.menu-3 h5 {
+  color: #fff;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  transition: translate 0.3s linear;
+  translate: -5px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+.menu-3 h5:hover {
+  translate: 0px;
+}
+.visit {
+  margin-top: 20px;
+}
+.social-platform {
+  max-width: 1116px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.fb {
+  width: 32px;
+  height: 32px;
+  fill: #888888;
+  cursor: pointer;
+}
+.fb:hover {
+  fill: #475993;
+}
+.ig {
+  width: 32px;
+  height: 32px;
+  fill: #888888;
+  cursor: pointer;
+}
+.ig:hover {
+  fill: #f77737;
+}
+.twitter {
+  width: 39px;
+  height: 32px;
+  fill: #888888;
+  cursor: pointer;
+}
+.twitter:hover {
+  fill: #0078f6;
+}
+.linkdn {
+  width: 32px;
+  height: 32px;
+  fill: #888888;
+  cursor: pointer;
+}
+.linkdn:hover {
+  fill: #3399ff;
+}
+.yt {
+  width: 42px;
+  height: 32px;
+  fill: #888888;
+  cursor: pointer;
+}
+.yt:hover {
+  fill: #ff2500;
+}
+.soundcloud {
+  width: 55px;
+  height: 45px;
+  fill: #888888;
+  cursor: pointer;
+}
+.soundcloud:hover {
+  fill: #f77737;
+}
