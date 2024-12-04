@@ -14,7 +14,7 @@ body {
       rgba(0, 0, 0, 0.3870141806722689) 0%,
       rgba(0, 0, 0, 0.9528405112044818) 61%
     ),
-    url(./time-managment.jpg);
+    url(./photos/e-sport-awards.png);
   background-position: center;
   background-size: cover;
 }
@@ -34,7 +34,7 @@ body {
 .unread-img {
   width: 134px;
   height: 18px;
-  background-image: url(./unread-logo.png);
+  background-image: url(./photos/unread-logo\ 22.07.08.png);
   background-position: center;
   background-size: cover;
   cursor: pointer;

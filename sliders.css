@@ -22,7 +22,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url("./avatar.jpg");
+    url("./photos/avatar.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +47,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url("./google.jpg");
+    url("./photos/google.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +73,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url(./kindle.jpg);
+    url(./photos/kindle.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,7 +98,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url(./election.jpg);
+    url(./photos/election.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,7 +124,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url(./nobel.jpg);
+    url(./photos/nobel.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,7 +149,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url(./remember.png);
+    url(./photos/remember.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,7 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.6) 100%
     ),
-    url(./unread-today.jpg);
+    url(./photos/unread-today.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
